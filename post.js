@@ -5695,7 +5695,7 @@ docRef.get().then((doc) => {
         time = moment(data.timeM).fromNow();
         console.log(time)
         var div = document.getElementById('fistbump-post');
-        div.innerHTML = `<div class="lg:pl-64 pb-10 w-20 clearfix lg:pr-64">
+        div.innerHTML = `<div class="lg:pl-64 pb-10 w-fit-content clearfix lg:pr-64">
         <div class="bg-white p-6 justify-fit-content rounded-lg shadow-lg">
             <div class="sm:flex sm:flex-shrink-0 justify-between">
                 <div class="sm:flex sm:info lg:pl-3 sm:flex-shrink-0 ">
